@@ -6,10 +6,6 @@ die;
 if (isset ($_POST["button1"])){
     echo '<body style="background-color: white; color: black"></body>';
 }
-$checked_arr[]
-$checked_arr = $_POST['checkbox'];
-$count = count($checked_arr);
-echo "Shichia ".$count." checkbox(u) yra pachekinta";
 ?>
 <!doctype html>
 <html lang="en">
@@ -37,6 +33,10 @@ echo "Shichia ".$count." checkbox(u) yra pachekinta";
            }
        }
        r();
+       $checked_arr = [];
+       $checked_arr = $_POST['checkbox'];
+       $count = count($checked_arr);
+       echo "Shichia ".$count." checkbox(u) yra pachekinta";
        ?>
     </form>
 </body>
